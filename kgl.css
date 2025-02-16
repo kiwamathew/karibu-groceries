@@ -1,6 +1,6 @@
 h1 {
     color: white;
 }
-.card {
-    margin-top: 50px;
+.card, .navbar bg-body-tertiary {
+    margin-top: 10px;
 }

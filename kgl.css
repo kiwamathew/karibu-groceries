@@ -1,6 +1,10 @@
 h1 {
-    color: white;
+    color: whitesmoke;
 }
-.card, .navbar bg-body-tertiary {
+.card {
     margin-top: 10px;
 }
+h2 {
+    color: black
+}
+

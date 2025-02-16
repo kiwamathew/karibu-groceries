@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KGL-profile</title>
+    <title>KGL-account</title>
 
     <link rel="stylesheet" href="css/bootstrap-5.3.3-dist/css/bootstrap.css">
     <link rel="stylesheet" href="kgl.css">
@@ -30,33 +30,70 @@
                       <li class="list-group-item">Farms</li>
                       <li class="list-group-item">Logout</li>
                     </ul>
+                </div>
+                  
+            </div>  
+            <div class="col">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card-header"><h2>User details</h2></div>
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="imgs/user-icon.avif" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <p class="card-text">Account type: Manager</p>
+                          <p class="card-text">Email: manager1@karibu.com</p>
+                          <p class="card-text">Password: ****</p>
+                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-        
             </div>
             <div class="col">
-                <nav class="navbar bg-body-tertiary">
-                    <div class="container-fluid">
-                      <span class="navbar-brand mb-0 h1">Welcome back!</span>
-                    </div>
-                    <div class="col">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                          </form>
-                    </div>
-                </nav>
+                <div class="card">
+                    <div class="card-header"><h2>Edit user details</h2></div>
+                    <form class="px-4 py-3">
+
+                        <div class="mb-3">
+                            <label class="form-label">First name</label>
+                            <input type="text" aria-label="First name" class="form-control">
+                            
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Last name</label>
+                            <input type="text" aria-label="Last name" class="form-control">
+                          </div>
+
+
+                      <div class="mb-3">
+                        <label for="exampleDropdownFormEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleDropdownFormPassword1" class="form-label">Old password</label>
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleDropdownFormPassword1" class="form-label">New password</label>
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleDropdownFormPassword1" class="form-label">Repeat new password</label>
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Confirm</button>
+                </div>
+                    
+                    </form>
+                  
             </div>
-
-            
         </div>
-            
-            </div>
-        </div>
-    
-    </div>    
-
-
-
+         
+        </div> 
+    </div>
+        
     <script src="css/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
